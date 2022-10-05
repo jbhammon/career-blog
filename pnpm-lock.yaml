@@ -8,7 +8,7 @@ specifiers:
   mini-css-extract-plugin: ^0.11.3
   npm-run-all: ^4.1.5
   postcss: ^8.4.17
-  postcss-loader: ^4.3.0
+  postcss-loader: '7'
   rimraf: ^3.0.2
   tailwindcss: ^3.1.8
   webpack: ^5.74.0
@@ -22,7 +22,7 @@ devDependencies:
   mini-css-extract-plugin: 0.11.3_webpack@5.74.0
   npm-run-all: 4.1.5
   postcss: 8.4.17
-  postcss-loader: 4.3.0_sat2ilddhdkv6huwh4d4inpfry
+  postcss-loader: 7.0.1_sat2ilddhdkv6huwh4d4inpfry
   rimraf: 3.0.2
   tailwindcss: 3.1.8_postcss@8.4.17
   webpack: 5.74.0_webpack-cli@4.10.0
@@ -1963,12 +1963,6 @@ packages:
       minimist: 1.2.6
     dev: true
 
-  /json5/2.2.1:
-    resolution: {integrity: sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==}
-    engines: {node: '>=6'}
-    hasBin: true
-    dev: true
-
   /jsonfile/3.0.1:
     resolution: {integrity: sha512-oBko6ZHlubVB5mRFkur5vgYR1UyqX+S6Y/oCfLhqNdcc2fYFlDpIoNc7AfKS1KOGcnNAkvsr0grLck9ANM815w==}
     optionalDependencies:
@@ -2056,15 +2050,6 @@ packages:
       big.js: 5.2.2
       emojis-list: 3.0.0
       json5: 1.0.1
-    dev: true
-
-  /loader-utils/2.0.2:
-    resolution: {integrity: sha512-TM57VeHptv569d/GKh6TAYdzKblwDNiumOdkFnejjD0XwTH87K90w3O7AiJRqdQoXygvi1VQTJTLGhJl7WqA7A==}
-    engines: {node: '>=8.9.0'}
-    dependencies:
-      big.js: 5.2.2
-      emojis-list: 3.0.0
-      json5: 2.2.1
     dev: true
 
   /localtunnel/2.0.2:
@@ -2570,18 +2555,16 @@ packages:
       yaml: 1.10.2
     dev: true
 
-  /postcss-loader/4.3.0_sat2ilddhdkv6huwh4d4inpfry:
-    resolution: {integrity: sha512-M/dSoIiNDOo8Rk0mUqoj4kpGq91gcxCfb9PoyZVdZ76/AuhxylHDYZblNE8o+EQ9AMSASeMFEKxZf5aU6wlx1Q==}
-    engines: {node: '>= 10.13.0'}
+  /postcss-loader/7.0.1_sat2ilddhdkv6huwh4d4inpfry:
+    resolution: {integrity: sha512-VRviFEyYlLjctSM93gAZtcJJ/iSkPZ79zWbN/1fSH+NisBByEiVLqpdVDrPLVSi8DX0oJo12kL/GppTBdKVXiQ==}
+    engines: {node: '>= 14.15.0'}
     peerDependencies:
       postcss: ^7.0.0 || ^8.0.1
-      webpack: ^4.0.0 || ^5.0.0
+      webpack: ^5.0.0
     dependencies:
       cosmiconfig: 7.0.1
       klona: 2.0.5
-      loader-utils: 2.0.2
       postcss: 8.4.17
-      schema-utils: 3.1.1
       semver: 7.3.8
       webpack: 5.74.0_webpack-cli@4.10.0
     dev: true
