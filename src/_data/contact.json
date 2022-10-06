@@ -1,20 +1,24 @@
 {
-    "items": [
-        {
-            "name": "test@example.com",
-            "link": "mailto:test@example.com"
-        },
-        {
-            "name": "Twitter",
-            "link": "https://twitter.com/…"
-        },
-        {
-            "name": "GitHub",
-            "link": "https://github.com/…"
-        },
-        {
-            "name": "CodePen",
-            "link": "https://codepen.io/…"
-        }
-    ]
+  "items": [
+    {
+      "label": "hello@jacksonhammond.com",
+      "emoji": "✉️",
+      "link": "mailto:hello@jacksonhammond.com"
+    },
+    {
+      "label": "GitHub",
+      "emoji": "🧑‍💻",
+      "link": "https://github.com/jbhammon"
+    },
+    {
+      "label": "LinkedIn",
+      "emoji": "👔",
+      "link": "https://www.linkedin.com/in/jackson-hammond-b428a481/"
+    },
+    {
+      "label": "Resume",
+      "emoji": "📜",
+      "link": "https://drive.proton.me/urls/F33PZDR8Y8#diyN1CUhRq6V"
+    }
+  ]
 }

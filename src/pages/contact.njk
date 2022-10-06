@@ -8,9 +8,7 @@ eleventyNavigation:
 ---
 
 <ul>
-     {% for item in contact.items %}
-     <li><a href="{{ item.link }}">{{ item.name }}</a></li>
-     {% endfor %}
+  {% for item in contact.items %}
+    <li>{{ item.emoji }} <a href="{{ item.link }}">{{ item.label }}</a></li>
+  {% endfor %}
 </ul>
-
-<p class="mt-4">☝️ This page gets its content from <code>src/_data/contact.json</code></p>
