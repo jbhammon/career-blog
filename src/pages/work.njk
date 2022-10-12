@@ -1,5 +1,5 @@
 ---
-title: Work
+title: My Work
 layout: layouts/base.njk
 permalink: /work/
 eleventyNavigation:
@@ -7,6 +7,35 @@ eleventyNavigation:
   order: 0
 ---
 
-<p>Your awesome content goes here.</p>
+<p class="mb-4">A list of recent stuff I've worked on or helped build.</p>
 
-<img class="mt-8" src="/img/example-image.jpg" alt="">
+<ul class="work-list stack">
+  <li class="work-list__row">
+    <div class="stack" style="--stack-gap: 0.5rem">
+      <h2 class="text-2xl">Lead Service Line Replacement Platform</h2>
+      <p>At BlueConduit we've created a SaaS platform to grow and scale our efforts to help water systems across the US replace dangerous lead water pipes. It helps automate data ingestion that feeds into our machine learning pipelines, and lets us deliver and visualize data science outputs so water systems can plan their resources more efficiently.</p>
+    </div>
+    <div class="work__image">
+      <img src="/img/engagement_map.png" class="w-full object-cover" alt="Toledo Engagement Map demo" >
+    </div>
+  </li>
+  <li class="work-list__row">
+    <div class="stack" style="--stack-gap: 0.5rem">
+      <h2 class="text-2xl">Toledo Engagement Map</h2>
+      <p>I implemented and deployed a map of home-level lead water pipe predictions for the city of Toledo, OH using predictions created by BlueConduit's data science team. This was the company's first piece of deployed software on its journey from consulting to becoming a SaaS provider. I accomplished this with React and a few bits of AWS infrastructure.</p>
+    </div>
+    <div class="work__image">
+      <img src="/img/engagement_map.png" class="w-full object-cover" alt="Toledo Engagement Map demo" >
+    </div>
+  </li>
+  <li class="work-list__row">
+    <div class="stack" style="--stack-gap: 0.5rem">
+      <h2 class="text-2xl">Copper</h2>
+      <p>Copper is my first attempt at building and maintaining a design system. Currently it consists of two npm packages open sourced under the Apache v2.0 license. It's been a humbling experience and taught me much about versioning FOSS code, building and publishing npm packages, UI development, and documenting code thoroughly for others.</p>
+      <p>You can <a class="text-violet-500 hover:underline hover:text-violet-700" href="https://github.com/BlueConduit/copper">check it out here.</a></p>
+    </div>
+    <div class="work__image">
+      <img src="/img/engagement_map.png" class="w-full object-cover" alt="Toledo Engagement Map demo" >
+    </div>
+  </li>
+</ul>
