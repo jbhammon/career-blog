@@ -1,5 +1,26 @@
+[class^='stack'] > * {
+  /* top and bottom margins in horizontal-tb writing mode */
+  margin-block: 0;
+}
+
 .stack > * + * {
-  margin-top: var(--stack-gap, 2rem);
+  margin-block-start: 1rem;
+}
+
+.stack-xl > * + * {
+  margin-block-start: 3rem;
+}
+
+.stack-large > * + * {
+  margin-block-start: 2rem;
+}
+
+.stack-small > * + * {
+  margin-block-start: 0.5rem;
+}
+
+.stack-xs > * + * {
+  margin-block-start: 0.25rem;
 }
 
 .center {

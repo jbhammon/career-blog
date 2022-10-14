@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 <h1 class="text-3xl mb-8">Contact Me</h1>
 
-<ul class="stack" style="--stack-gap: 0.25rem;">
+<ul class="stack-small">
   {% for item in contact.items %}
     <li>{{ item.emoji }} <a href="{{ item.link }}">{{ item.label }}</a></li>
   {% endfor %}

@@ -2,5 +2,8 @@
 layout: layouts/base.njk
 ---
 
-<time>{{ date | readableDate }}</time>
-<article>{{ content | safe }}</article>
+<div class="stack">
+  <h1 class="text-3xl">{{ title }}</h1>
+  <p>{{ page.date | readableDate }}</p>
+  <article class="stack-small">{{ content | safe }}</article>
+</div>
