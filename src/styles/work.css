@@ -1,5 +1,6 @@
 .work-list {
   list-style: none;
+  max-width: 900px;
 }
 
 .work-list__row {

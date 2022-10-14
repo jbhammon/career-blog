@@ -1,3 +1,9 @@
 .stack > * + * {
   margin-top: var(--stack-gap, 2rem);
 }
+
+.center {
+  box-sizing: content-box;
+  max-inline-size: var(--center-width, 1000px);
+  margin-inline: auto;
+}
