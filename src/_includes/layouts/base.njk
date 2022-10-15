@@ -6,9 +6,11 @@
   </head>
   <body>
     {% include "../components/navigation.njk" %}
-    <main class="center mt-8">
-      {{ content | safe }}
-    </main>
+    <div class="box">
+      <main class="center mt-8">
+        {{ content | safe }}
+      </main>
+    </div>
     <script src="/assets/main.js"></script>
   </body>
 </html>

@@ -1,3 +1,7 @@
+.box {
+  padding: 1rem;
+}
+
 [class^='stack'] > * {
   /* top and bottom margins in horizontal-tb writing mode */
   margin-block: 0;
