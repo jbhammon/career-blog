@@ -11,6 +11,6 @@ I wanted to make this site as lightweight as possible and learn some new tools w
 
 I also deployed this site with Netlify and was pretty pleased with that as well. The whole process of connecting the Netlify site/app to my Github repo was pretty painless and definitely something I'll consider using again for projects like this in the future.
 
-Styles: Tailwind + Every Layout! More to come here.
+I created the styles with a combination of [Tailwind CSS](https://tailwindcss.com/) and [Every Layout](https://every-layout.dev/). Tailwind has helped style the individual bits and pieces of the site, and I used ideas from Every Layout to arrange those pieces on each page. It's been a good experiment so far, and I look forward to trying this combination more in the future.
 
 This is a first, and simple, blog post to get this section started. I'm not sure that I want to commit time to writing and publishing ideas from my worklife, but if I do it'll happen here.
