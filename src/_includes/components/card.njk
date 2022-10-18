@@ -1,0 +1,22 @@
+
+
+{% macro card(href, body, heading='Heading') %}
+  <div class="
+    stack flex flex-col justify-between
+    p-4 rounded
+    bg-slate-100
+  ">
+    {% if href %}
+      <h3 class="text-violet-700 text-xl">
+        <a href="{{ href }}" class="hover:cursor-pointer">
+          {{ heading }}
+        </a>
+      </h3>
+    {% else %}
+      <h3>{{ heading }}</h3>
+    {% endif %}
+    {% if body %}
+      <p>{{ body }}</p>
+    {% endif %}
+  </div>
+{% endmacro %}

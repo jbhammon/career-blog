@@ -2,3 +2,4 @@
 import "../styles/tailwind.css";
 import "../styles/work.css";
 import "../styles/layout.css";
+import "../styles/home.css";
