@@ -4,18 +4,20 @@ layout: layouts/base.njk
 ---
 
 {% from 'components/card.njk' import card %}
+{% from 'components/home.njk' import sectionHeader %}
 
-<div class="stack-xl">
-  <h1 class="text-3xl mb-8">Hi 👋, I'm Jackson Hammond</h1>
-  <div class="stack-xs">
-    <p>This is a website about my work as a web developer.</p>
-    <p>This website will not track you.</p>
-    <p>I do not and will not work for surveillance capitalists.</p>
+<div class="home-copy-container">
+  <div class="stack-xl">
+    <h1 class="text-3xl mb-8">Hi, I'm Jackson Hammond</h1>
+    <div class="stack-xs">
+      <p>This is a website about my work as a web developer.</p>
+      <p>This website will not track you.</p>
+      <p>I do not and will not work for surveillance capitalists.</p>
+    </div>
   </div>
-
-  <div class="card-grid">
-    {{ card(href='/work', heading='My Work', body="Read about some of the projects I've worked on recently.") }}
-    {{ card(href='/blog', heading='Blog', body="Stuff I've written.") }}
-    {{ card(href='/contact', heading='Contact', body="Here's how you can connect with me.") }}
+  <div class="stack home-section-nav">
+    {{ sectionHeader(href='/work', heading='Work')}}
+    {{ sectionHeader(href='/blog', heading='Blog')}}
+    {{ sectionHeader(href='/contact', heading='Contact')}}
   </div>
 </div>
